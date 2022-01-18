@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+<script id="alert">
+    window.alert("If you don't want to listen to the music, at the bottom left")
+</script>
+    
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <h1 id="title">Clarusway Survey Form</h1>
+            <h3 id="description">Thank you for taking the time to help us improve the platform.</h3>
+        </header>
+        <section id="survey-form-container">
+            <form action="result.html" method="get">
+                <div class="input-box">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <form action="result.html" method="get">
+                    <div class="input-box">
+                        <label for="surname">Surname</label>
+                        <br>
+                        <input type="text" name="surname" id="name" placeholder="Enter your Surname">
+                    </div>            
+                <form action="result.html" method="get">
+                <div class="input-box">
+                        <label for="name">Email</label>
+                         <br>
+                         <input type="text" name="name" id="name" placeholder="user@clarusway.com">
+                    </div>
+                    <br>
+                <h3>Which option best describes your current role?</h3>
+                    <div class="input-box">
+                        <select name="content" id="dropdown">
+                            <option value="select" selected disabled>Select current role</option>
+                            <option value="student">Student</option>
+                            <option value="mentor">Mentor</option>
+                            <option value="instructor">İnstructor</option>
+                            <option value="developer">Developer</option>
+                            <option value="hiring">Hiring Manager</option>
+                        </select>
+                        <br><br>
+                <h3>Whould you recommend Clarusway to a friend?</h3>
+                <div class="input-box">
+                    <input type="radio" name="recommend" id="first-radio" value="yes" checked>
+                    <label for="first-radio">Definetely,Yes</label>
+                    <br>
+                    <input type="radio" name="recommend" id="second-radio" value="maybe">
+                    <label for="second-radio">Maybe</label>
+                    <br>                        
+                    <input type="radio" name="recommend" id="third-radio" value="notsure">
+                    <label for="third-radio">Not Sure</label>
+                    <br>
+                    <input type="radio" name="recommend" id="fourth-radio" value="no">
+                    <label for="fourth-radio">Definetely, No</label>
+                </div>
+                <br>
+                <h3>What is your favorite feature of Clarusway?</h3>
+                <div class="input-box">
+                    <select name="content" id="dropdown">
+                        <option value="select" selected disabled>Select an option</option>
+                        <option value="lessons">Lessons</option>
+                        <option value="cms">CMS</option>
+                        <option value="teamwork">Teamwork</option>
+                        <option value="workshop">Workshop</option>
+                        <option value="mentoring">Mentoring System</option>
+                    </select>
+                    <br><br>
+                <h3>What would you like to see improved? (Check all that apply)</h3>                
+                 <div class="input-box">
+                    <input type="checkbox" name="improve" id="first-check" value="frontend">
+                    <label for="first-check">Front-end Projects</label>
+                    <br>
+                        <input type="checkbox" name="improve" id="second-check" value="backend">
+                        <label for="second-check">Back-end Projects</label>
+                        <br>
+                        <input type="checkbox" name="improve" id="third-check" value="datascience">
+                        <label for="third-check" >Data Science</label>
+                        <br>
+                        <input type="checkbox" name="improve" id="fourth-check" value="additional">
+                        <label for="fourth-check">Additonal Courses</label>
+                        <br><br>
+                <h3>Any comments or suggestions?</h3>
+                <div class="input-box">
+                    <textarea name="feedback" id="feedback" placeholder="Enter your comment here..Thanxs for your cooperation...."></textarea>
+                <button type="submit" id="form-button" >Submit</button>  
+                </div>
+                
+                
+                
+                
+                  
+
+
+                    </div>
+                                                                    
+                    </div>
+                    
+
+
+                    </div>
+
+
+
+            </form>
+
+        </section>
+
+
+
+
+
+
+    </div>
+<audio id="audio" src="./sound/Billie Eilish - i love you Lyric.mp3" loop autoplay controls> 
+</audio>   
+</body>
+</html>
